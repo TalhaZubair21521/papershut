@@ -1,0 +1,70 @@
+.PriceCalculator {
+  background: transparent linear-gradient(180deg, #ae6cd9 0%, #9c41d9 100%) 0%
+    0% no-repeat padding-box;
+  width: 680px;
+  height: 700px;
+  margin-top: 10px;
+  margin-left: 25px;
+  border-radius: 44px;
+  padding-top: 2px;
+  padding-left: 64px;
+}
+
+.labels {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  opacity: 80%;
+  text-align: left;
+  margin-top: 12px;
+}
+
+.Inputs {
+  background-color: #ffffff33;
+  color: #ffffff;
+  border-radius: 8px;
+  width: 560px;
+  height: 40px;
+  margin-left: -56px;
+  margin-top: -10px;
+  border: 0px;
+  padding: 10px;
+  /* text-align: right; */
+}
+
+.CalculateButton {
+  background-color: #43badf;
+  width: 560px;
+  height: 60px;
+  border: 0px;
+  border-radius: 13px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: -56px;
+  margin-top: 15px;
+}
+
+.pagesdropdown {
+  height: 200px;
+  overflow: scroll;
+}
+
+.alerts {
+  color: red;
+  /* position: absolute; */
+  text-align: left;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  opacity: 60%;
+  margin-top: 13px;
+  margin-left: 10px;
+}
+
+.alerting {
+  display: flex;
+}

@@ -1,0 +1,52 @@
+.Reviews {
+  display: flex;
+  width: 400px;
+  left: 2%;
+}
+
+.SiteJabberLogo {
+  width: 280px;
+  /* height: 50; */
+}
+
+.TrustPilotReview {
+  align-items: center;
+}
+
+.SiteJabberReview {
+  margin-left: 25%;
+}
+
+.ReviewsContainer {
+  background-image: url("../../assets/backgroundbg.png");
+  width: 400px;
+  height: 250px;
+  background-size: 400px 250px;
+  color: #FFFFFF;
+  padding: 10px;
+  padding-top: 30px;
+  opacity: 0.3;
+  text-align: left;
+}
+
+
+.Customer{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: -30px;
+    margin-left: -50px
+}
+
+.date{
+    font-size: 18px;
+    color: grey;
+    margin-top: -20px;
+    margin-left: -40px;
+}
+
+.text {
+    opacity: 2;
+    color: black;
+}
+

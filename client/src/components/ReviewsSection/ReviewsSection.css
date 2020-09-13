@@ -1,0 +1,33 @@
+.ReviewsSectionContainer {
+  background-color: #6e2e99;
+  width: 100%;
+  height: 660px;
+  margin-top: 5%;
+}
+
+.ReviewsHeading {
+  color: #ffffff;
+  font-family: "BebasNeue", sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  position: absolute;
+  left: -120px;
+  bottom: -18px;
+  width: 500px;
+  height: 79px;
+}
+
+.ReviewsRectangle {
+  background-color: #43badf;
+  width: 152px;
+  height: 28px;
+  position: relative;
+  left: 45%;
+  top: 100px;
+}
+
+.Reviews1Container {
+    margin-top: 9%;
+    margin-left: 10%;
+}

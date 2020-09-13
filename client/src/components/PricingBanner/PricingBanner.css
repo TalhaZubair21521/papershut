@@ -1,0 +1,19 @@
+.PricingBanner {
+  background-image: url("../../assets/Path\ 31.png");
+  height: 600px;
+  background-size: 100% 600px;
+  padding-top: 50px;
+}
+
+.PricingIntro {
+  margin-left: 120px;
+  font-size: 38px;
+
+}
+
+
+.PricingSub {
+  width: 1000px;
+  margin-left: 120px;
+  margin-top: 40px;
+}

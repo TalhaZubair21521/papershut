@@ -1,0 +1,33 @@
+.SingleBenefit {
+    display: flex;
+    margin-bottom: 5%;
+    margin-left: 9%;
+}
+
+.TwoBenefits {
+    display: flex;
+}
+
+.BenefitText {
+    position: relative;
+    top: -16px;
+    margin-left: 65px;
+}
+
+.BenefitHeading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.BenefitDescription {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    width: 500px;
+}
+
+.BenefitIcons {
+    /* display: flex; */
+    text-align: center;
+    width: 98px;
+}

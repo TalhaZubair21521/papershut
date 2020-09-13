@@ -1,0 +1,52 @@
+.FeatureBox {
+  background-color: #f9f2ff;
+  width: 528px;
+  height: 279px;
+  border-radius: 10px;
+  margin-left: 18px;
+}
+
+.ImgEllipse {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  /* padding: 5%; */
+  background: linear-gradient(180deg, #c077ff 0%, #9378ff 100%);
+  /* background-image: url('../../assets/dna.png'); */
+  border-radius: 50%;
+  width: 119px;
+  height: 119px;
+}
+
+.dnaImg {
+  margin-top: 15%;
+  height: 73px;
+  width: 73px;
+}
+
+.boxHeader {
+  display: flex;
+}
+
+.Header {
+  margin-top: 50px;
+  font-family: "BebasNeue", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  font-size: 24px;
+  text-align: left;
+}
+
+.Description {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0px;
+  font-size: 22px;
+  text-align: left;
+  margin-left: 30px;
+  width: 300px;
+}
+
+.MainContainer {
+  display: flex;
+}

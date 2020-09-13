@@ -1,0 +1,15 @@
+.TableContainer {
+    width: 1400px;
+    margin-left: 13.5%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+     background-color: #f2f2f2;
+     height: 28 0px;
+}
+
+.Headings {
+    background-color: #9C41D9;
+    box-shadow: 3px 3px grey;
+    color: white;
+}
+

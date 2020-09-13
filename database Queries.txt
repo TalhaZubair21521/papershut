@@ -1,0 +1,91 @@
+CREATE TABLE sevice(
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name varchar(150) NOT NULL
+);
+
+CREATE TABLE admin(
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    email varchar(100) NOT NULL,
+    pasword varchar(100) NOT NULL,
+    address varchar(100),
+    phone varchar(100),
+    profile_img varchar(100)
+);
+
+CREATE TABLE academic(
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name varchar(100) NOT NULL
+);
+
+CREATE TABLE prices(
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    timerange varchar(100) NOT NULL,
+    price float NOT NULL,
+    academic_id int NOT NULL,
+    FOREIGN KEY (academic_id) REFERENCES academic(id)
+);
+
+
+INSERT INTO service (name) VALUES ("Essay Writing");
+
+INSERT INTO academic (name) VALUES ("High School");
+INSERT INTO academic (name) VALUES ("College/University");
+INSERT INTO academic (name) VALUES ("Master");
+INSERT INTO academic (name) VALUES ("PHD/Doctor");
+
+INSERT INTO prices (timerange,price,academic_id) VALUES ("12h",30.16,1);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("24h",26.39,1);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("2d",21.47,1);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("3d",19.67,1);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("4-5d",18.36,1);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("6-7d",16.23,1);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("8+d",14.03,1);
+
+INSERT INTO prices (timerange,price,academic_id) VALUES ("12h",34.42,2);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("24h",30.65,2);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("2d",25.73,2);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("3d",23.93,2);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("4-5d",22.62,2);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("6-7d",20.49,2);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("8+d",18.59,2);
+
+INSERT INTO prices (timerange,price,academic_id) VALUES ("12h",38.68,3);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("24h",34.91,3);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("2d",29.99,3);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("3d",28.19,3);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("4-5d",26.88,3);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("6-7d",24.75,3);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("8+d",23.14,3);
+
+INSERT INTO prices (timerange,price,academic_id) VALUES ("12h",40.81,4);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("24h",37.04,4);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("2d",32.12,4);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("3d",30.32,4);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("4-5d",29.01,4);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("6-7d",26.88,4);
+INSERT INTO prices (timerange,price,academic_id) VALUES ("8+d",25.43,4);
+
+CREATE TABLE order(
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    email varchar(100) NOT NULL,
+    phone varchar(100) NOT NULL,
+    document_type varchar(100) NOT NULL,
+    academic_id int NOT NULL,
+    deadline_time timestamp NOT NULL,
+    number_of_pages int NOT NULL,
+    title varchar(200) NOT NULL,
+    subject varchar(200) NOT NULL,
+    citation varchar(200) NOT NULL,
+    sources varchar(500) NOT NULL,
+    description varchar(2000) NOT NULL,
+    bill int NOT NULL,
+    discount int NOT NULL,
+    requirement_file varchar(500) NOT NULL,
+    status varchar(20) NOT NULL,
+    FOREIGN KEY (academic_id) REFERENCES academic(id)
+);
+
+
+GET Request : localhost:5000/service/getServices
+
+cbUZCLdN+n;T

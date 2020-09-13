@@ -1,0 +1,47 @@
+.CalculatorBox {
+  background-color: #f2f2f2;
+  /* width: 100%; */
+  height: 1042px;
+  margin-top: 5%;
+  padding: 2%;
+  padding-left: 7%;
+  
+}
+
+.CalculatorHeading {
+  font-family: "BebasNeue", sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  position: absolute;
+  left: -110px;
+  bottom: -18px;
+  width: 500px;
+  height: 79px;
+}
+
+.Rectangle {
+  background-color: #43badf;
+  width: 152px;
+  height: 28px;
+  position: relative;
+  left: 35%;
+  top: 100px;
+}
+
+.Benefits {
+  text-align: start;
+  margin-top: 10%;
+  margin-left: 2%;
+}
+
+.CalculatorContainer {
+  display: flex;
+  margin-top: 8%;
+
+}
+
+
+.CRectangle {
+  margin-left: 80px;
+}

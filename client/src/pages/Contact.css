@@ -1,0 +1,29 @@
+.ContactBox {
+    width: 900px;
+    height: 150px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border: 5px #9C41D9 solid;
+    margin-left: 27%;
+    margin-top: 60px;
+    transition: margin .5s;
+    text-align: left;
+    background-color: #f2f2f2;
+}
+
+.heading {
+    color: #9C41D9;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.desc {
+    /* color: #ffffff; */
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.ServiceContainer {
+    margin-top: 100px;
+}

@@ -1,0 +1,30 @@
+.ServicesBox {
+  height: 1042px;
+  margin-top: 5%;
+  padding: 2%;
+  padding-left: 10%;
+}
+
+.ServicesHeading {
+  font-family: "BebasNeue", sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  position: absolute;
+  left: -60px;
+  bottom: -18px;
+  width: 500px;
+  height: 79px;
+}
+
+.ServicesContainer {
+  display: flex;
+  margin-top: 10%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+.column {
+    margin-left: 6%;
+}

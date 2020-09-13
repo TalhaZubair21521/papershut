@@ -1,0 +1,99 @@
+.FreeServicesSection {
+  background-color: #fafafa;
+  width: 100%;
+  height: 650px;
+padding-left: 10%;
+}
+
+.FreeServicesHeading {
+  color: #2e2e2e;
+  font-family: "BebasNeue", sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  position: absolute;
+  left: -50px;
+  bottom: -18px;
+  width: 500px;
+  height: 79px;
+}
+.FreeServiceRectangle {
+  margin-left: -1.9%;
+}
+
+.FreeServicesContainer {
+  display: flex;
+  margin-top: 150px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+.FreeService {
+  display: flex;
+  margin-left: 150px;
+  margin-top: 20px;
+  height: 55px;
+}
+
+.PriceContainer {
+  display: flex;
+  margin-left: 100px;
+}
+
+.FreeServiceInfo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #4d4d4d;
+  width: 230px;
+}
+
+.Price {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #818181;
+  text-decoration: line-through;
+}
+
+.Free {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: #2e2e2e;
+  margin-left: 20px;
+}
+
+.SavingInfo {
+  display: flex;
+  text-align: center;
+  margin-left: 600px;
+}
+
+.YouSave {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.SaveAmount{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    color: #9C41D9;
+    margin-left: 20px;
+}
+
+.AddFreebiesButton{
+    /* margin-left: ; */
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #43BADF;
+    width: 500px;
+    height: 56px;
+    border-radius: 10px;
+    border: 0px;
+    margin-left: -12%;
+}

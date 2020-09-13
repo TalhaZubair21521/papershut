@@ -1,0 +1,10 @@
+.Details {
+    background: transparent linear-gradient(180deg, #AE6CD9 0%, #9C41D9 100%) 0% 0% no-repeat padding-box;
+    width: 680px;
+    height: 680px;
+    margin-top: 10px;
+    margin-left: 25px;
+    border-radius: 44px;
+    padding-top: 10px;
+    padding-left: 64px;
+}
